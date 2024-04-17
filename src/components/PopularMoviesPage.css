@@ -1,0 +1,28 @@
+/* PopularMoviesPage.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .movie-card {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .movie-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+   
+  }
+  

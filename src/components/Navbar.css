@@ -1,0 +1,47 @@
+/* Navbar.css */
+
+nav {
+    background-color: #333; /* Background color of the navbar */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the navbar */
+  }
+  
+  nav div {
+    display: flex; /* Arrange navigation links and search bar horizontally */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  nav div a {
+    color: #fff; /* Text color of navigation links */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 20px; /* Spacing between navigation links */
+  }
+  
+  nav div input[type="text"] {
+    padding: 5px; /* Padding inside the search bar */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #fff; /* White border */
+  }
+  
+  nav div input[type="text"]:focus {
+    outline: none; /* Remove outline when focused */
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    nav div {
+      flex-direction: column; /* Stack navigation links and search bar vertically */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    nav div a {
+      margin-right: 0; /* Remove margin between navigation links */
+      margin-bottom: 10px; /* Add spacing between navigation links */
+    }
+  
+    nav div input[type="text"] {
+      width: 100%; /* Make search bar full width */
+      margin-right: 0; /* Remove margin */
+    }
+  }
+  
