@@ -27,8 +27,8 @@ function Navbar() {
     <nav>
       <div>
         <Link to="/">Home</Link>
-        <Link to="/ee">Top Rated</Link>
-        <Link to="/eee">Upcoming</Link>
+        <Link to="/topratedpage">Top Rated</Link>
+        <Link to="/upcomingpage">Upcoming</Link>
 
         <div className="search-bar">
           <input

@@ -9,8 +9,8 @@ function AllRoutes() {
   return (
     <Routes>
       <Route path="/" element={<PopularMoviesPage />} />
-      <Route path="/ee" element={<Topratedpage />} />
-      <Route path="/eee" element={<Upcomingpage />} />
+      <Route path="/topratedpage" element={<Topratedpage />} />
+      <Route path="/upcomingpage" element={<Upcomingpage />} />
       <Route path="/movie/:movie_id" element={<SingleMoviePage />} />
 
       
